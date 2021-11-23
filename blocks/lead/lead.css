@@ -1,0 +1,24 @@
+.lead {
+  display: grid;
+  grid-template-columns: minmax(320px, 984px);
+  justify-items: center;
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 1152px) {
+  .lead {
+    grid-template-columns: minmax(320px, 928px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .lead {
+    grid-template-columns: minmax(320px, 768px);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lead {
+    grid-template-columns: 320px;
+  }
+}

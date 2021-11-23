@@ -1,0 +1,12 @@
+.places__list-block {
+  display: grid;
+  grid-template-columns: 46% 50%;
+  gap: 48px 4%;
+}
+
+@media screen and (max-width: 480px) {
+  .places__list-block {
+    grid-template-columns: 320px;
+    gap: 32px;
+  }
+}

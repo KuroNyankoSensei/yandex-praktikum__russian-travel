@@ -1,0 +1,11 @@
+.cover {
+  display: grid;
+  grid-template-columns: minmax(320px, 1184px);
+  position: relative;
+}
+
+@media screen and (max-width: 1152px) {
+  .cover {
+    grid-template-columns: minmax(320px, 100vw);
+  }
+}

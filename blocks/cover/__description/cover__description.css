@@ -1,0 +1,17 @@
+.cover__description {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  width: 360px;
+  text-align: center;
+  margin: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 520px) {
+  .cover__description {
+    font-size: 14px;
+    line-height: 16px;
+    width: 288px;
+  }
+}
