@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 46% 50%;
   gap: 48px 4%;
+  justify-content: center;
 }
 
 @media screen and (max-width: 480px) {

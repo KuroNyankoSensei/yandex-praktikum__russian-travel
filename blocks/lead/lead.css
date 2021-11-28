@@ -8,6 +8,7 @@
 @media screen and (max-width: 1152px) {
   .lead {
     grid-template-columns: minmax(320px, 928px);
+    padding-top: 48px;
   }
 }
 
