@@ -1,6 +1,6 @@
 .places__list-block {
   display: grid;
-  grid-template-columns: 46% 50%;
+  grid-template-columns: 47% 49%;
   gap: 48px 4%;
   justify-content: center;
 }
