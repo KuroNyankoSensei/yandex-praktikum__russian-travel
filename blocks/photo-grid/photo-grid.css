@@ -1,6 +1,7 @@
 .photo-grid {
   display: grid;
   grid-template-columns: minmax(320px, 1184px);
+  justify-content: center;
 }
 
 @media screen and (max-width: 1152px) {
@@ -11,7 +12,7 @@
 
 @media screen and (max-width: 800px) {
   .photo-grid {
-    grid-template-columns: minmax(320px, 720px);
+    grid-template-columns: 94%;
   }
 }
 

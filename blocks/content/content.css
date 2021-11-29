@@ -2,13 +2,13 @@
   display: grid;
   justify-items: center;
   grid-template-columns: minmax(320px, 1184px);
-  gap: 92px;
+  gap: 86px;
   justify-self: center;
 }
 
 @media screen and (max-width: 800px) {
   .content {
-    gap: 89px;
+    gap: 87px;
   }
 }
 

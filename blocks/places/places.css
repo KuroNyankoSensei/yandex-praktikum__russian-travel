@@ -1,6 +1,7 @@
 .places {
   display: grid;
   grid-template-columns: minmax(320px, 984px);
+  justify-content: center;
 }
 
 @media screen and (max-width: 1152px) {
@@ -11,6 +12,12 @@
 
 @media screen and (max-width: 800px) {
   .places {
-    grid-template-columns: minmax(320px, 720px);
+    grid-template-columns: 94%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .places {
+    grid-template-columns: 100%;
   }
 }
