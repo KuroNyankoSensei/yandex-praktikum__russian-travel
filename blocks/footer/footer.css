@@ -15,15 +15,19 @@
 @media screen and (max-width: 800px) {
   .footer {
     width: 94%;
-    justify-self: center;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 750px) {
+  .footer {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+@media screen and (max-width: 570px) {
   .footer {
     max-width: 90%;
     padding-top: 64px;
-    flex-direction: column;
-    gap: 48px;
   }
 }

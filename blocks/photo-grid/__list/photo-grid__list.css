@@ -12,3 +12,9 @@
     gap: 12px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .photo-grid__list {
+    gap: 8px;
+  }
+}

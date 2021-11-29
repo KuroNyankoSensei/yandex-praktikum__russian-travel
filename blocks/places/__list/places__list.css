@@ -6,14 +6,8 @@
   gap: 80px;
 }
 
-@media screen and (max-width: 825px) {
-  .places__list {
-    gap: 46px;
-  }
-}
-
 @media screen and (max-width: 480px) {
   .places__list {
-    gap: 50px;
+    gap: 62px;
   }
 }

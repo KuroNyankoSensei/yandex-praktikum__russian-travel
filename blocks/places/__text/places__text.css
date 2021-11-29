@@ -1,14 +1,13 @@
 .places__text {
   font-size: 18px;
-  line-height: 26px;
+  line-height: 163%;
   font-weight: 400;
-  margin: 0 0 25px 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 825px) {
   .places__text {
     font-size: 16px;
-    line-height: 163%;
   }
 }
 
